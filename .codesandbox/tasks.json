@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install"
+      "command": "npm ru"
     }
   ],
 
@@ -11,8 +11,12 @@
   "tasks": {
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
+    },
+    "bot.js": {
+      "name": "bot.js",
+      "command": "bot.js",
+      "runAtStart": true
     }
   }
 }
